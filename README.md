@@ -33,7 +33,7 @@ Copy code
 ### **Step 1: Clone the Repository**  
 Clone the project repository to your local system:  
 
-`git clone https://github.com/your-username/SpaceRocketGame.git  
+`git clone https://github.com/your-username/SpaceRocketGame.git \n 
 cd SpaceRocketGame`
 ________________________________________
 Step 2: Create a Build Directory
