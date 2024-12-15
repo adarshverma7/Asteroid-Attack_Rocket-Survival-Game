@@ -32,29 +32,29 @@ Copy code
 
 ### **Step 1: Clone the Repository**  
 Clone the project repository to your local system:  
-`bash
-git clone https://github.com/your-username/SpaceRocketGame.git  
-cd SpaceRocketGame
+
+`git clone https://github.com/your-username/SpaceRocketGame.git  
+cd SpaceRocketGame`
 ________________________________________
 Step 2: Create a Build Directory
 Navigate to the project directory and create a build directory:
 bash
-Copy code
+`Copy code
 mkdir build  
-cd build
+cd build`
 ________________________________________
 Step 3: Configure the Build Using CMake
 Run the following commands to configure and build the project:
 bash
-Copy code
+`Copy code
 cmake ..  
-make
+make`
 ________________________________________
 Step 4: Run the Game
 Execute the compiled game:
 bash
-Copy code
-./SpaceRocketGame
+`Copy code
+./SpaceRocketGame`
 ________________________________________
 How the Game Works
 1. Rocket Controls
