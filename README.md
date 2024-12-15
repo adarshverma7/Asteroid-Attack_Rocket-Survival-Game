@@ -33,23 +33,23 @@ Copy code
 ### **Step 1: Clone the Repository**  
 Clone the project repository to your local system:  
 
-```git clone https://github.com/your-username/SpaceRocketGame.git
-```cd SpaceRocketGame`
-________________________________________
+git clone https://github.com/your-username/SpaceRocketGame.git
+cd SpaceRocketGame
+
 Step 2: Create a Build Directory
 Navigate to the project directory and create a build directory:
 bash
 `Copy code
 mkdir build  
 cd build`
-________________________________________
+
 Step 3: Configure the Build Using CMake
 Run the following commands to configure and build the project:
 bash
 `Copy code
 cmake ..  
 make`
-________________________________________
+
 Step 4: Run the Game
 Execute the compiled game:
 bash
@@ -60,13 +60,13 @@ How the Game Works
 1. Rocket Controls
 •	Move the rocket using the left and right arrow keys.
 •	Shoot projectiles by pressing the spacebar (with cooldown).
-________________________________________
+
 2. Game Mechanics
 •	Asteroids spawn randomly at the top and move downward.
 •	Use projectiles to destroy asteroids and earn points.
 •	Avoid collisions with asteroids to keep playing.
 •	The game ends when your rocket collides with an asteroid.
-________________________________________
+
 3. Restarting the Game
 •	Press the R key after the game ends to restart.
 ________________________________________
@@ -76,13 +76,13 @@ Code Structure and Design
 •	Game Loop: A continuous loop to process user inputs, update game states, and render graphics.
 •	Projectile and Asteroid Management: Efficient handling of movement and collision detection for projectiles and asteroids.
 •	Score Tracking and UI: Displays the player’s score on the screen using SFML’s sf::Text.
-________________________________________
+
 2. Collision Detection
 •	Uses getGlobalBounds() to check overlapping bounding boxes for accurate collision detection.
-________________________________________
+
 3. Difficulty Scaling
 •	Asteroid speed increases with the player’s score, making the game progressively harder.
-________________________________________
+
 4. Game Over and Restart
 •	Clears all active projectiles and asteroids.
 •	Resets the score and game state for a fresh start.
@@ -91,11 +91,11 @@ Challenges and Solutions
 1. Collision Detection
 •	Implemented bounding box collision checks using getGlobalBounds().
 •	Ensured proper game state reset when restarting.
-________________________________________
+
 2. Performance Optimization
 •	Removed off-screen projectiles and destroyed asteroids to conserve memory.
 •	Limited the frame rate to 60 FPS for consistent gameplay.
-________________________________________
+
 3. Difficulty Scaling
 •	Dynamically adjusted asteroid speed based on the player’s score to enhance gameplay challenge.
 ________________________________________
