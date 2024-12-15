@@ -32,7 +32,7 @@ Copy code
 
 ### **Step 1: Clone the Repository**  
 Clone the project repository to your local system:  
-```bash
+`bash
 git clone https://github.com/your-username/SpaceRocketGame.git  
 cd SpaceRocketGame
 ________________________________________
