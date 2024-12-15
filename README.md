@@ -20,14 +20,8 @@ Asteroid Attack is a **2D arcade-style game** developed using **C++** and **SFML
 
 ## **Directory Structure**
 
-SpaceRocketGame/
-├── assets/
-│   ├── asteroids.png         # Asteroid sprite
-│   ├── rocket_frame1.png     # Rocket sprite
-│   └── ... (other assets)
-├── CMakeLists.txt            # CMake build configuration file
-├── main.cpp                  # Main game logic and source code
-└── ... (other potential files)
+![image](https://github.com/user-attachments/assets/927b73f0-5dad-4ba2-b328-be0f98a82003)
+
 
 yaml
 Copy code
@@ -58,7 +52,9 @@ Execute the compiled game:
 
 Copy code
 ./SpaceRocketGame
-How the Game Works
+
+# How the Game Works
+
 1. Rocket Controls
 Move the rocket using left and right arrow keys.
 Shoot projectiles by pressing the spacebar (with cooldown).
@@ -69,7 +65,9 @@ Avoid collisions with asteroids to keep playing.
 The game ends when your rocket collides with an asteroid.
 3. Restarting the Game
 Press the R key after the game ends to restart.
-Code Structure and Design
+
+#Code Structure and Design
+
 1. Core Features
 Texture and Sprite Management: Handles loading and rendering of game assets like rocket and asteroid sprites.
 Game Loop: A continuous loop to process user inputs, update game states, and render graphics.
@@ -82,7 +80,9 @@ Asteroid speed increases with the player’s score, making the game progressivel
 4. Game Over and Restart
 Clears all active projectiles and asteroids.
 Resets the score and game state for a fresh start.
-Challenges and Solutions
+
+#Challenges and Solutions
+
 1. Collision Detection
 Implemented bounding box collision checks using getGlobalBounds().
 Ensured proper game state reset when restarting.
@@ -91,19 +91,23 @@ Removed off-screen projectiles and destroyed asteroids to conserve memory.
 Limited the frame rate to 60 FPS for consistent gameplay.
 3. Difficulty Scaling
 Dynamically adjusted asteroid speed based on the player’s score to enhance gameplay challenge.
-Future Improvements
+
+#Future Improvements
+
 Power-Ups: Introduce features like shields, multi-shot projectiles, or speed boosts.
 Sound Effects: Add sounds for shooting, collisions, and explosions.
 Main Menu: Create a main menu with options for starting the game, adjusting settings, and viewing high scores.
 Level System: Implement a system where levels increase with progressively harder challenges.
 Why I Chose This Project
-This project was an opportunity to:
+
+#This project was an opportunity to:
 
 Apply C++ and game development principles in a practical setting.
 Gain experience with SFML, a powerful library for 2D game development.
 Explore topics like collision detection, object management, and user input handling.
 Build an interactive, fun, and scalable game from scratch.
-Acknowledgements
+
+#Acknowledgements
 SFML Library: For its easy-to-use APIs for graphics, audio, and input handling.
 CMake: For simplifying the build process across different platforms.
 YouTube/GameDev Resources: For inspiration and guidance on 2D game development techniques.
