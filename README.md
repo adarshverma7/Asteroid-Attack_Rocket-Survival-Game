@@ -1,57 +1,61 @@
-# Asteroid Attack: Rocket Survival Game
+# **Asteroid Attack: Rocket Survival Game**
 
-Asteroid Attack is a 2D arcade-style game developed using **C++** and **SFML**. The player controls a space rocket that must shoot projectiles to destroy falling asteroids while avoiding collisions. The game features dynamic difficulty scaling, score tracking, and a restart mechanism, offering an engaging and challenging experience.
+Asteroid Attack is a **2D arcade-style game** developed using **C++** and **SFML**. The player controls a space rocket that must shoot projectiles to destroy falling asteroids while avoiding collisions. The game features dynamic difficulty scaling, score tracking, and a restart mechanism, offering an engaging and challenging experience.
 
 ---
 
-## Features
+## **Features**
 
-1. **Rocket Movement**: Smooth left/right movement with boundary checks to keep the rocket within the screen.
-2. **Projectile Shooting**: Controlled projectile shooting with cooldown mechanics for balanced gameplay.
-3. **Asteroid Spawning and Movement**: Randomized asteroid spawning with increasing speed based on score.
+1. **Rocket Movement**: Smooth left/right movement with boundary checks to keep the rocket within the screen.  
+2. **Projectile Shooting**: Controlled projectile shooting with cooldown mechanics for balanced gameplay.  
+3. **Asteroid Spawning and Movement**: Randomized asteroid spawning with increasing speed based on score.  
 4. **Collision Detection**:
-   - Projectile vs. Asteroid: Increases score when a hit occurs.
-   - Rocket vs. Asteroid: Ends the game when a collision happens.
-5. **Score Tracking**: Real-time score updates displayed on the screen.
-6. **Game Over and Restart**: A "Game Over" screen with an option to restart by pressing the `R` key.
-7. **Scalable Difficulty**: Asteroids progressively fall faster as the player’s score increases.
+   - **Projectile vs. Asteroid**: Increases score when a hit occurs.  
+   - **Rocket vs. Asteroid**: Ends the game when a collision happens.  
+5. **Score Tracking**: Real-time score updates displayed on the screen.  
+6. **Game Over and Restart**: A "Game Over" screen with an option to restart by pressing the `R` key.  
+7. **Scalable Difficulty**: Asteroids progressively fall faster as the player’s score increases.  
 
 ---
 
-## Directory Structure
+## **Directory Structure**
 
-SpaceRocketGame/ ├── assets/ │ ├── asteroids.png # Asteroid sprite │ ├── rocket_frame1.png # Rocket sprite (frame 1) │ ├── rocket_frame2.png # Rocket sprite (frame 2) │ └── ... (other assets) ├── CMakeLists.txt # CMake build configuration file ├── main.cpp # Main game logic and source code └── ... (other potential files)
+SpaceRocketGame/
+├── assets/
+│   ├── asteroids.png         # Asteroid sprite
+│   ├── rocket_frame1.png     # Rocket sprite
+│   └── ... (other assets)
+├── CMakeLists.txt            # CMake build configuration file
+├── main.cpp                  # Main game logic and source code
+└── ... (other potential files)
 
 yaml
 Copy code
 
 ---
 
-## Installation
+## **Installation**
 
-### Step 1: Clone the Repository
-Clone the project repository to your local system:
+### **Step 1: Clone the Repository**  
+Clone the project repository to your local system:  
 ```bash
 git clone https://github.com/your-username/SpaceRocketGame.git
 cd SpaceRocketGame
 Step 2: Create a Build Directory
 Navigate to the project directory and create a build directory:
 
-bash
 Copy code
 mkdir build
 cd build
 Step 3: Configure the Build Using CMake
 Run the following commands to configure the project:
 
-bash
 Copy code
 cmake ..
 make
 Step 4: Run the Game
 Execute the compiled game:
 
-bash
 Copy code
 ./SpaceRocketGame
 How the Game Works
@@ -79,16 +83,13 @@ Asteroid speed increases with the player’s score, making the game progressivel
 Clears all active projectiles and asteroids.
 Resets the score and game state for a fresh start.
 Challenges and Solutions
-Collision Detection:
-
+1. Collision Detection
 Implemented bounding box collision checks using getGlobalBounds().
 Ensured proper game state reset when restarting.
-Performance Optimization:
-
+2. Performance Optimization
 Removed off-screen projectiles and destroyed asteroids to conserve memory.
 Limited the frame rate to 60 FPS for consistent gameplay.
-Difficulty Scaling:
-
+3. Difficulty Scaling
 Dynamically adjusted asteroid speed based on the player’s score to enhance gameplay challenge.
 Future Improvements
 Power-Ups: Introduce features like shields, multi-shot projectiles, or speed boosts.
@@ -106,7 +107,7 @@ Acknowledgements
 SFML Library: For its easy-to-use APIs for graphics, audio, and input handling.
 CMake: For simplifying the build process across different platforms.
 YouTube/GameDev Resources: For inspiration and guidance on 2D game development techniques.
-sql
+vbnet
 Copy code
 
-You can directly copy and paste this into your project's README file! Let me know if you'd like any changes.
+This **README.md** file is formatted with proper headings, bold text for key terms, and neatly structured sections. It is ready for direct copy-pasting. Let me know if you need further edits!
