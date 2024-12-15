@@ -1,4 +1,4 @@
-**Asteroid Attack: Rocket Survival Game**
+## **Asteroid Attack: Rocket Survival Game**
 
 Asteroid Attack is a **2D arcade-style game** developed using **C++** and **SFML**. The player controls a space rocket that must shoot projectiles to destroy falling asteroids while avoiding collisions. The game features dynamic difficulty scaling, score tracking, and a restart mechanism, offering an engaging and challenging experience.
 
@@ -18,52 +18,43 @@ Asteroid Attack is a **2D arcade-style game** developed using **C++** and **SFML
 
 ---
 
-**Directory Structure**
+ # **Directory Structure**
 
 ![image](https://github.com/user-attachments/assets/927b73f0-5dad-4ba2-b328-be0f98a82003)
 
 ---
 
-**Installation**
+# **Installation**
 
 Step 1: Clone the Repository  
 Clone the project repository to your local system:  
 
-git clone https://github.com/your-username/SpaceRocketGame.git
-cd SpaceRocketGame
+`git clone https://github.com/your-username/SpaceRocketGame.git
+`cd SpaceRocketGame
 
-less
-Copy code
 
 Step 2: Create a Build Directory  
 Navigate to the project directory and create a build directory:  
 
-mkdir build
-cd build
-
-vbnet
-Copy code
+`mkdir build
+`cd build
 
 Step 3: Configure the Build Using CMake  
 Run the following commands to configure and build the project:
 
-cmake ..
-make
+`cmake ..
+`make
 
-yaml
-Copy code
 
 Step 4: Run the Game  
 Execute the compiled game:
 
-./SpaceRocketGame
+`./SpaceRocketGame
 
-markdown
-Copy code
 
 ---
 
-**How the Game Works**
+# **How the Game Works**
 
 1. **Rocket Controls**  
    - Move the rocket using the left and right arrow keys.  
@@ -80,7 +71,7 @@ Copy code
 
 ---
 
-**Code Structure and Design**
+# **Code Structure and Design**
 
 1. **Core Features**  
    - **Texture and Sprite Management**: Handles loading and rendering of game assets like rocket and asteroid sprites.  
@@ -100,7 +91,7 @@ Copy code
 
 ---
 
-**Challenges and Solutions**
+# **Challenges and Solutions**
 
 1. **Collision Detection**  
    - Implemented bounding box collision checks using `getGlobalBounds()`.  
@@ -115,7 +106,7 @@ Copy code
 
 ---
 
-**Future Improvements**
+# **Future Improvements**
 
 - **Power-Ups**: Introduce features like shields, multi-shot projectiles, or speed boosts.  
 - **Sound Effects**: Add sounds for shooting, collisions, and explosions.  
@@ -124,7 +115,7 @@ Copy code
 
 ---
 
-**Why I Chose This Project**
+# **Why I Chose This Project**
 
 This project was an opportunity to:  
 - Apply C++ and game development principles in a practical setting.  
@@ -134,7 +125,7 @@ This project was an opportunity to:
 
 ---
 
-**Acknowledgements**
+# **Acknowledgements**
 
 - **SFML Library**: For its easy-to-use APIs for graphics, audio, and input handling.  
 - **CMake**: For simplifying the build process across different platforms.  
