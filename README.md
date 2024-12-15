@@ -1,5 +1,8 @@
 ## **Asteroid Attack: Rocket Survival Game**
 
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/57e908f2-7d57-4a41-b311-8d9188e71022)
+
+
 Asteroid Attack is a **2D arcade-style game** developed using **C++** and **SFML**. The player controls a space rocket that must shoot projectiles to destroy falling asteroids while avoiding collisions. The game features dynamic difficulty scaling, score tracking, and a restart mechanism, offering an engaging and challenging experience.
 
 ---
